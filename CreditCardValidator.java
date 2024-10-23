@@ -52,7 +52,7 @@ public class CreditCardValidator {
         }
 
         // e
-        int result = 10 - (lastDigit % 10);
+        int result = 10 - (sum % 10);
 
         // f
         if (result == lastDigit) {
